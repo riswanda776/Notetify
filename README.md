@@ -1,16 +1,12 @@
 # Notetify
+![Notetify_1_768x768](https://user-images.githubusercontent.com/35683696/95124037-10da9900-077d-11eb-9e41-d7d9ca8fb954.png)
 
-A new Flutter project.
+<h1> :thinking: Apa itu Notetify ? </h1>
 
-## Getting Started
+<p> Notetify adalah sebuah aplikasi dibuat menggunakan flutter, yang dapat menyimpan Catatan, Tugas dan Link. 
+menggunakan Firebase Autentication sebagai autentikasi dan Cloud Firestore sebagai Databasenya </p>
+  
+<h1> :iphone: Download </h1>
+<p> https://bit.ly/3nkxCZh</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h3> Made with :heart: by Riswanda Himawan </h3>
