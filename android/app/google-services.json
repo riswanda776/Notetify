@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "122101708706",
+    "firebase_url": "https://my-project-1d7bc.firebaseio.com",
+    "project_id": "my-project-1d7bc",
+    "storage_bucket": "my-project-1d7bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122101708706:android:33c9b13ee96cb2fc07e4fb",
+        "android_client_info": {
+          "package_name": "com.riswanda.notetify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122101708706-2gaenb6ursgj2i2jlue9tddcs1u7rh36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riswanda.notetify",
+            "certificate_hash": "0a8a9a5793e46085f6e97a9164525f7363937367"
+          }
+        },
+        {
+          "client_id": "122101708706-h12fei4s70kst1b0qbvctmldr06o7f7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riswanda.notetify",
+            "certificate_hash": "cba13064c47dcabda73854592066575cb810d5c9"
+          }
+        },
+        {
+          "client_id": "122101708706-j7o7po0s5fbr2jjun6047btrji8fpeqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMrjlVQkYK_BmLahj4aQHuwyf8PdBlzHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122101708706-j7o7po0s5fbr2jjun6047btrji8fpeqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
