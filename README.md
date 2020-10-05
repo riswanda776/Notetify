@@ -1,4 +1,4 @@
-# demofirebaseauth
+# Notetify
 
 A new Flutter project.
 
