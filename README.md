@@ -4,7 +4,7 @@
 <h3> :thinking: Apa itu Notetify ? </h3>
 
 <p> Notetify adalah sebuah aplikasi sederhana yang dapat menyimpan Catatan, Tugas dan Link. 
-dibuat menggunakan Flutter dan Firebase sebagi backend </p>
+dibuat menggunakan Flutter dan Firebase sebagi backendnya.</p>
   
 <h3> :iphone: Download </h3>
 <p> https://bit.ly/3nkxCZh</p>
