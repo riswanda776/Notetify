@@ -7,7 +7,7 @@
 dibuat menggunakan Flutter dan Firebase sebagai backendnya.</p>
   
 <h3> :iphone: Download </h3>
-<p> https://bit.ly/3nkxCZh</p>
+<p> https://bit.ly/2GsFNCi</p>
 
 <h5> Made with :heart: by Riswanda Himawan </h3>
 
