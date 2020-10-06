@@ -196,6 +196,7 @@ class ItemList extends StatelessWidget {
                                             list[i].data["Category"],
                                             date,
                                             list[i].data["Details"],
+                                            list[i].data['NotificationID'],
                                             list[i].reference,
                                           )));
                             },

@@ -1,3 +1,4 @@
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:notetify/constant/ScreenSize.dart';
 import 'package:notetify/icon_file/fun_icon_icons.dart';
 import 'package:notetify/provider/themeProvider.dart';
@@ -15,22 +16,27 @@ class TodoView extends StatefulWidget {
   final String category;
   final DateTime date;
   final String subtitle;
+  final int notifID;
   final index;
 
-  TodoView(this.title, this.category, this.date, this.subtitle, this.index);
+  TodoView(this.title, this.category, this.date, this.subtitle,this.notifID, this.index);
 
   @override
   _TodoViewState createState() => _TodoViewState();
 }
 
 class _TodoViewState extends State<TodoView> {
+ 
+      
   final pc = new PanelController();
   @override
   Widget build(BuildContext context) {
     final themeChange = Provider.of<DarkThemeProvider>(context);
+
     String category = widget.category;
     Color color;
     String image;
+    print(widget.notifID);
 
     /// check categories to display images according to categories
     switch (category) {
@@ -97,6 +103,7 @@ class _TodoViewState extends State<TodoView> {
                   subtitle: widget.subtitle,
                   color: color,
                   index: widget.index,
+                  notifID: widget.notifID,
                 ),
                 minHeight: 380,
                 borderRadius: BorderRadius.only(
@@ -129,14 +136,27 @@ class Panel extends StatelessWidget {
   final DateTime date;
   final String subtitle;
   final Color color;
+  final int notifID;
   final index;
+
+    FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
+      FlutterLocalNotificationsPlugin();
+    
+   
+      
+    Future<void> cancelNotification(int id) async {
+    await flutterLocalNotificationsPlugin.cancel(id);
+  }
+
   Panel(
       {this.title,
       this.category,
       this.date,
       this.subtitle,
       this.color,
-      this.index});
+      this.index, this.notifID});
+
+      
 
   @override
   Widget build(BuildContext context) {
@@ -253,6 +273,8 @@ class Panel extends StatelessWidget {
                             child: Text("Batal")),
                         FlatButton(
                             onPressed: () {
+                           
+                              cancelNotification(notifID);
                               DatabaseServices.deleteTodo(index);
                               Navigator.pop(context);
                               Navigator.pop(context);
