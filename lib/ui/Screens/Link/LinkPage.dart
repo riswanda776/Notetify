@@ -168,7 +168,7 @@ class _ListUrlState extends State<ListUrl> {
                             backgroundColor: Colors.red,
                             content: Text(
                               "Link berhasil di hapus",
-                              
+                              style: TextStyle(color: Colors.white),
                             )));
                       },
                       iconWidget: Padding(
